@@ -22,5 +22,3 @@ bin/* text eol=lf
 *.png binary
 *.jpg binary
 *.gif binary
-
-# Add additional file types as necessary
