@@ -1,0 +1,35 @@
+<!-- app/views/pages/about.html.erb -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Us</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+</head>
+<body>
+  <header>
+    <h1>About Us</h1>
+    <nav>
+      <%= link_to 'Home', root_path %> |
+      <%= link_to 'Friends', friends_path %> |
+    </nav>
+  </header>
+
+  <main>
+    <h2>Our Story</h2>
+    <p>Welcome to our friends list app. We are dedicated to helping you manage and connect with your friends easily.</p>
+
+    <h3>Our Mission</h3>
+    <p>Our mission is to provide a simple and effective tool for maintaining and managing your personal connections.</p>
+
+    <h3>Contact Us</h3>
+    <p>If you have any questions or feedback, feel free to <a href="mailto:contact@yourapp.com">email us</a>.</p>
+  </main>
+
+  <footer>
+    <p>&copy; <%= Time.now.year %> Friend List. All rights reserved.</p>
+  </footer>
+</body>
+</html>
