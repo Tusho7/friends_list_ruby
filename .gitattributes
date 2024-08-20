@@ -5,5 +5,22 @@ db/schema.rb linguist-generated
 
 # Mark any vendored files as having been vendored.
 vendor/* linguist-vendored
+
+# Handle Rails encrypted credentials
 config/credentials/*.yml.enc diff=rails_credentials
 config/credentials.yml.enc diff=rails_credentials
+
+# Normalize line endings for Ruby, shell, and other text files
+*.rb text eol=lf
+*.sh text eol=lf
+*.yml text eol=lf
+
+# Ensure bin scripts use LF line endings and retain executable permissions
+bin/* text eol=lf
+
+# Handle binary files correctly
+*.png binary
+*.jpg binary
+*.gif binary
+
+# Add additional file types as necessary
