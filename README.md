@@ -114,8 +114,8 @@ Gemfile.lock        # Locked gem versions
 config.ru           # Rack configuration file
 Rakefile            # Rake task definitions
 README.md           # Project documentation
+```
 
 ###
 
 This README template provides a clear structure and instructions for setting up and understanding your Frins List project. Adjust the sections and details according to your specific project setup and requirements.
-```
