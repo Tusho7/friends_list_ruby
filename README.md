@@ -1,4 +1,4 @@
-# Frined List App
+# Friend List App
 
 ### Table of Contents
 
